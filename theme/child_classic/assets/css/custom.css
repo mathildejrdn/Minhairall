@@ -1,0 +1,35 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ #header{ background: #627C59 !important; }
+ #footer {
+    padding-top: 2.5rem;
+    background-color: #627C59;
+}
+
+#block_myaccount_infos .myaccount-title a, #header a, #wrapper .breadcrumb li a, .block-contact .block-contact-title, .block-contact .navbar-toggler .material-icons, .linklist .blockcms-title a {
+    color: white;
+}
+.footer-container .h3, .footer-container .h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.block-contact, .footer-container li a {
+    font-size: .875rem;
+    color: white;
+}
+
+.block-contact, .footer-container li a:hover {
+    text-decoration: underline;
+}
+#header .header-top a[data-depth="0"] {
+    color: white;
+    text-transform: uppercase;
+}
+
+#header .header-top a[data-depth="0"]:hover {
+    text-decoration: underline;
+}
